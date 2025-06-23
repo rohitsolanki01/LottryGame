@@ -55,7 +55,7 @@ This project is open source and available under the MIT License.
 Rohit Solanki
 
 GitHub: @rohitsolanki01
-LinkedIn: Your LinkedIn Profile
+LinkedIn: https://www.linkedin.com/in/rohit-solanki-495860348/
 
 🙏 Acknowledgments
 
