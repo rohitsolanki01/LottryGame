@@ -1,12 +1,66 @@
-# React + Vite
+🎰 Lottery Game
+A simple and interactive lottery game built with React, demonstrating the use of React state management and props for component communication.
+🎯 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Random Number Generation: Generate lottery numbers with a single click
+Interactive UI: Clean and user-friendly interface
+State Management: Efficient use of React hooks (useState, useEffect)
+Component Communication: Proper implementation of props between parent and child components
+Responsive Design: Works seamlessly across different screen sizes
+Real-time Updates: Instant feedback and results display
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 18+ - Frontend framework
+Vite - Build tool and dev server
+JavaScript (ES6+) - Programming language
+CSS3 - Styling
+HTML5 - Markup
+
+📦 Installation
+
+Clone the repository
+bashgit clone https://github.com/rohitsolanki01/LottryGame.git
+cd LottryGame
+
+Install dependencies
+bashnpm install
+
+Start the development server
+bashnpm run dev
+
+Open your browser
+Navigate to http://localhost:5173 to view the application
+
+
+🧩 Component Architecture
+State Management
+
+Parent Component: Manages the main game state including generated numbers, game status, and user interactions
+Child Components: Receive data via props and communicate back through callback functions
+
+🤝 Contributing
+
+Fork the repository
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+
+📝 License
+This project is open source and available under the MIT License.
+👨‍💻 Author
+Rohit Solanki
+
+GitHub: @rohitsolanki01
+LinkedIn: Your LinkedIn Profile
+
+🙏 Acknowledgments
+
+React team for the amazing framework
+Vite team for the lightning-fast build tool
+The open-source community for inspiration
+
+⭐ If you found this project helpful, please give it a star on GitHub!
